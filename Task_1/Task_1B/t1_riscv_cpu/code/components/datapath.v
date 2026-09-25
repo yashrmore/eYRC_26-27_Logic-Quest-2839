@@ -5,7 +5,7 @@ module datapath (
     input [1:0]   ResultSrc,
     input         PCSrc, ALUSrc,
     input         RegWrite,
-    input [1:0]   ImmSrc,
+    input [2:0]   ImmSrc,
     input [2:0]   ALUControl,
     output        Zero,
     output [31:0] PC,
